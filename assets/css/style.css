@@ -172,6 +172,9 @@ a:active {
     background-color: var(--HEADER-BGCOLOR);
     color: var(--HEADER-COLOR);
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 75px;
 }
 
 .header__nav {
@@ -188,7 +191,7 @@ a:active {
     display: flex;
     justify-content: space-evenly;
     gap: 1rem;
-    margin-top: -23px; /* idk why the list is a bit down... so i moved it up manually*/
+    margin-top: 0px; /* idk why the list is a bit down... so i moved it up manually*/
 }
 
 /* HERO */
